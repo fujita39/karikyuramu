@@ -21,5 +21,8 @@
                 </div>
             @endforeach
         </div>
+        <dib class = 'paginate'>
+        {{$posts ->links()}}
+        </div>
     </body>
 </html>
